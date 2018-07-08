@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://competent-colden-b6acb1.netlify.com/* https://washwithcare.ca/:splat 301!
+https://washwithcare.netlify.com/* https://washwithcare.ca/:splat 301!
