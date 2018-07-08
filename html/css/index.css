@@ -1,0 +1,90 @@
+body, h1, h2, li, p, ul { margin: 0; padding: 0; }
+td { padding: 0; text-align: left; vertical-align: top; }
+
+a { color: #808080; }
+
+.image { font-size: 1pt; line-height: 0.01pt; }
+
+.current a { cursor: default; }
+
+#all { color: #808080; font-family: arial,sans-serif; font-size: 12px; margin: 53px auto 0; position: relative; width: 956px; }
+
+#foot { margin-top: 16px; }
+#foot #copyright { float: left; font-size: 11px; width: 50%; }
+#foot #logos { background: url( /i/foot_logos.gif ); float: right; height: 39px; width: 390px; }
+
+#home h1 { display: none; }
+#home p { background: url( /i/home_text.gif ) no-repeat; height: 112px; left: 86px; position: absolute; top: 201px; width: 777px; }
+#home p span { display: none; }
+#home #main { background: #fff url( /i/home_bg.jpg ) no-repeat; height: 544px; }
+#home #more { background: url( /i/more_bg.png ); height: 12px; left: 86px; list-style-type: none; position: absolute; top: 356px; width: 222px; }
+#home #more li { float: left; }
+#home #more li a { display: block; height: 12px; }
+#home #more li a span { display: none; }
+#home #more li#more-1 a { margin-right: 25px; width: 78px; }
+#home #more li#more-2 a { width: 119px; }
+#home #punjabi { left: 711px; position: absolute; top: 353px; width: 147px; }
+#home #tags { background: url( /i/tags_home_bg.png ); }
+
+#nav { list-style-type: none; position: absolute; right: 45px; top: 45px; }
+#nav li { border-left: 1px solid #dde7f0; float: left; padding: 0 8px; }
+#nav li a { background-image: url( /i/nav_bg.png ); display: block; height: 11px; }
+#nav li a span { display: none; }
+#nav li#nav-1 { border-left-width: 0 !important; }
+#nav li#nav-1 a { width: 126px; }
+#nav li#nav-2 a { background-position: -126px 0; width: 70px; }
+#nav li#nav-3 a { background-position: -196px 0; width: 61px; }
+#nav li#nav-4 a { background-position: -257px 0; width: 74px; }
+#nav li#nav-1 a:hover { background-position: 0 -11px; }
+#nav li#nav-2 a:hover { background-position: -126px -11px; }
+#nav li#nav-3 a:hover { background-position: -196px -11px; }
+#nav li#nav-4 a:hover { background-position: -257px -11px; }
+
+#page h1 { left: 76px; position: absolute; top: 142px; }
+#page h1 span { display: none; }
+#page p { line-height: 1.8; margin-top: 14px; }
+#page p strong { color: #4d4d4d; }
+#page #clothespin { padding: 8px 50px 0 0; }
+#page #main { background: #ededee url( /i/page_bg.gif ) repeat-x; padding: 188px 76px 64px; }
+#page #nav li#nav-1 a { background-position: 0 -22px; }
+#page #nav li#nav-2 a { background-position: -126px -22px; }
+#page #nav li#nav-3 a { background-position: -196px -22px; }
+#page #nav li#nav-4 a { background-position: -257px -22px; }
+#page #nav li#nav-1 a:hover, #page #nav li#nav-1.current a { background-position: 0 -33px; }
+#page #nav li#nav-2 a:hover, #page #nav li#nav-2.current a { background-position: -126px -33px; }
+#page #nav li#nav-3 a:hover, #page #nav li#nav-3.current a { background-position: -196px -33px; }
+#page #nav li#nav-4 a:hover, #page #nav li#nav-4.current a { background-position: -257px -33px; }
+#page #tags { background: url( /i/tags_page_bg.png ); }
+#page.about h1 { background: url( /i/more_about_the_project.gif ); height: 15px; width: 187px; }
+#page.contact h1 { background: url( /i/contact_us.gif ); height: 13px; width: 87px; }
+#page.contact p { font-size: 14px; }
+#page.contact a, #page.contact p, #page.contact p strong { color: #06c !important; }
+#page.resources a span { display: none; }
+#page.resources h1 { background: url( /i/resources.gif ); height: 13px; width: 81px; }
+#page.resources h2 { color: #333; font-size: 12px; margin-top: -2px; }
+#page.resources td { padding: 0 36px 26px 0; }
+#page.resources td li { border-right: 1px solid #999; display: inline; padding-right: 9px; margin-right: 6px; }
+#page.resources td p { margin: 2px 0 6px 0; }
+#page.resources td ul { list-style-type: none; }
+#page.resources #video-1 { background: url( /i/video_1_bg.jpg ); display: block; height: 120px; width: 214px; }
+#page.resources #video-2 { background: url( /i/video_2_bg.jpg ); display: block; height: 120px; width: 214px; }
+#page.team h1 { background: url( /i/our_research_team.gif ); height: 13px; width: 153px; }
+#page.team td { padding: 0 16px 16px 0; }
+#page.video #main { padding: 120px 0 64px 72px !important; }
+
+#summary { color: #06c; font-size: 14px; }
+
+#tags { height: 96px; left: 66px; list-style-type: none; position: absolute; top: 0; width: 423px; }
+#tags li { float: left; }
+#tags li a { display: block; height: 82px; }
+#tags li a span { display: none; }
+#tags li#tag-1 a { margin-left: 7px; width: 215px; }
+#tags li#tag-2 a { margin-left: 6px; width: 187px; }
+
+.brw-0 { border-right-width: 0 !important; }
+.c-p { cursor: pointer !important; }
+.mt-0 { margin-top: 0 !important; }
+.mt-6 { margin-top: 6px !important; }
+.mt-24 { margin-top: 24px !important; }
+.ta-c { text-align: center !important; }
+.w-250 { width: 250px !important; }
